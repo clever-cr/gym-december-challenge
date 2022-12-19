@@ -50,6 +50,26 @@ const Discover = () => {
           />
         </div>
       </div>
+      <div className="py-6">
+        <div className="flex justify-between bg-lightgray py-6 px-6 text-base font-medium lg:text-2xl text-darkblue text-opacity-50">
+          <p>Select degree program or enter keyword</p>
+          <Image
+            width={24}
+            height={24}
+            alt="dropdown"
+            src="/images/expand.svg"
+          ></Image>
+        </div>
+        <div className="flex justify-end text-lightblue hover:underline">
+          <p>Degree programs</p>
+          <Image
+            width={24}
+            height={24}
+            src="/images/arrowf.svg"
+            alt="arrow"
+          ></Image>
+        </div>
+      </div>
     </div>
   );
 };

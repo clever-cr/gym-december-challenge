@@ -27,44 +27,44 @@ const NavBar = () => {
         <div className="flex gap-[52px] items-center">
           <div className="hidden lg:flex gap-6 text-sm font-bold">
             <Link
-              href="#"
+              href="/page1"
               className="border-b-4 pb-6  pt-8 mb-0.5  border-darkblue hover:border-white"
             >
               NEWS AND EVENTS
             </Link>
 
             <Link
-              href="#"
+              href="/page1"
               className="border-b-4 pb-6  pt-8 mb-0.5  border-darkblue hover:border-white"
             >
               STUDIES
             </Link>
             <Link
-              href="#"
+              href="/page1"
               className="border-b-4 pb-6  pt-8 mb-0.5  border-darkblue hover:border-white"
             >
               LIFELONG LEARNING
             </Link>
             <Link
-              href="#"
+              href="/page1"
               className="border-b-4 pb-6  pt-8 mb-0.5  border-darkblue hover:border-white"
             >
               REASEARCH
             </Link>
             <Link
-              href="#"
+              href="/page1"
               className="border-b-4 pb-6  pt-8 mb-0.5  border-darkblue hover:border-white"
             >
               INNOVATION
             </Link>
             <Link
-              href="#"
+              href="/page1"
               className="border-b-4 pb-6  pt-8 mb-0.5  border-darkblue hover:border-white"
             >
               COMMUNITY
             </Link>
             <Link
-              href="#"
+              href="/page1"
               className="border-b-4 pb-6  pt-8 mb-0.5  border-darkblue hover:border-white"
             >
               ABOUT TUM

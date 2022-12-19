@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../ui/Button";
 import NewsCard from "../ui/NewsCard";
 import vr from "/public/images/vr.jpg";
+import Image from "next/image";
 
 const News = () => {
   return (
