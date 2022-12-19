@@ -3,7 +3,7 @@ import Button from "../ui/Button";
 import Image from "next/image";
 const MeetUp = () => {
   return (
-    <div>
+    <div className="relative">
       <Image
         width={784}
         height={20}
@@ -11,7 +11,7 @@ const MeetUp = () => {
         src="/images/meet.webp"
         className="relative"
       ></Image>
-      <div className="bg-lightblue flex flex-col w-[688px] gap-y-5 px-10 py-10 absolute z-10  right-0 ">
+      <div className="bg-lightblue flex flex-col w-[688px] gap-y-5 px-10 py-10 absolute z-10 top-12 right-20 ">
         <h1 className="text-[28px] font-bold text-white ">
           What drives us: President Thomas F. Hofmann about TUM
         </h1>
