@@ -11,7 +11,7 @@ const MeetUp = () => {
         src="/images/meet.webp"
         className="relative"
       ></Image>
-      <div className="bg-lightblue flex flex-col w-[688px] gap-y-5 px-10 py-10 absolute z-10 top-12 right-20 ">
+      <div className="bg-lightblue flex flex-col w-[688px] gap-y-5 px-10 py-10 lg:absolute lg:z-10 lg:top-12 lg:right-20 ">
         <h1 className="text-[28px] font-bold text-white ">
           What drives us: President Thomas F. Hofmann about TUM
         </h1>
