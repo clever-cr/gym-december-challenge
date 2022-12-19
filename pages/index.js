@@ -2,6 +2,7 @@ import NavBar from "../components/layout/NavBar";
 import Hero from "../components/sections/Hero";
 import Wrapper from "../components/sections/Wrapper";
 import News from "../components/sections/News";
+import Discover from "../components/sections/Discover";
 import React from "react";
 
 const index = () => {
@@ -10,6 +11,7 @@ const index = () => {
       <NavBar />
       <Hero />
       <News />
+      <Discover />
     </div>
   );
 };

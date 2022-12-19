@@ -25,10 +25,13 @@ const NavBar = () => {
           </span>
         </div>
         <div className="flex gap-[52px] items-center">
-          <div className=" flex gap-6 text-sm font-bold">
-            <div className="border-b-4 pb-6  pt-8 mb-0.5  border-darkblue hover:border-white">
-              <Link href="#">NEWS AND EVENTS</Link>
-            </div>
+          <div className="hidden lg:flex gap-6 text-sm font-bold">
+            <Link
+              href="#"
+              className="border-b-4 pb-6  pt-8 mb-0.5  border-darkblue hover:border-white"
+            >
+              NEWS AND EVENTS
+            </Link>
 
             <Link
               href="#"
@@ -78,6 +81,13 @@ const NavBar = () => {
               height="24"
               src="/images/search.svg"
               alt="search"
+            ></Image>
+            <Image
+              width="24"
+              height="24"
+              src="/images/menu.svg"
+              alt="menu"
+              className="block lg:hidden"
             ></Image>
           </div>
         </div>

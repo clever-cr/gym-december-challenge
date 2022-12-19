@@ -11,6 +11,7 @@ module.exports = {
         darkblue: "#072140",
         lightblue: "#3070b3",
         lightgray: "#e8ecef",
+        yellow: "#fed702",
       },
       maxWidth: {
         wrap: "101rem",
