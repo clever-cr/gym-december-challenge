@@ -3,37 +3,83 @@ import Image from "next/image";
 import Link from "next/link";
 const NavBar = () => {
   return (
-    <div className="flex gap-[332px] items-center bg-darkblue text-white ">
-      <div className="flex gap-3">
-        <Image width="33" height="33" alt="logo" src="/images/bar.svg"></Image>
-        <Image width="80" height="42" alt="logo" src="/images/logo.svg"></Image>
-        <span className="text-xs">
-          Techcnicalc
-          <br />
-          University <br /> of Munich
-        </span>
-      </div>
-      <div className="flex gap-[52px]">
-        <div className=" flex gap-6 text-sm font-bold">
-          <Link href="#" className="hover:border-b ">
-            NEWS AND EVENTS
-          </Link>
-          <Link href="#">STUDIES</Link>
-          <Link href="#">LIFELONG LEARNING</Link>
-          <Link href="#">REASEARCH</Link>
-          <Link href="#">INNOVATION</Link>
-          <Link href="#">COMMUNITY</Link>
-          <Link href="#">ABOUTTUM</Link>
-        </div>
-        <div className="flex gap-2 ">
-          <Link href="#">DE</Link>
-          <p>EN</p>
+    <div className=" bg-darkblue px-6 sticky top-0 z-30 w-full">
+      <div className="flex justify-between  text-white  items-center max-w-wrap mx-auto ">
+        <div className="flex gap-3 pt-6 pb-4">
           <Image
-            width="24"
-            height="24"
-            src="/images/search.svg"
-            alt="search"
+            width="33"
+            height="33"
+            alt="logo"
+            src="/images/bar.svg"
           ></Image>
+          <Image
+            width="80"
+            height="42"
+            alt="logo"
+            src="/images/logo.svg"
+          ></Image>
+          <span className="text-xs">
+            Techcnicalc
+            <br />
+            University <br /> of Munich
+          </span>
+        </div>
+        <div className="flex gap-[52px] items-center">
+          <div className=" flex gap-6 text-sm font-bold">
+            <div className="border-b-4 pb-6  pt-8 mb-0.5  border-darkblue hover:border-white">
+              <Link href="#">NEWS AND EVENTS</Link>
+            </div>
+
+            <Link
+              href="#"
+              className="border-b-4 pb-6  pt-8 mb-0.5  border-darkblue hover:border-white"
+            >
+              STUDIES
+            </Link>
+            <Link
+              href="#"
+              className="border-b-4 pb-6  pt-8 mb-0.5  border-darkblue hover:border-white"
+            >
+              LIFELONG LEARNING
+            </Link>
+            <Link
+              href="#"
+              className="border-b-4 pb-6  pt-8 mb-0.5  border-darkblue hover:border-white"
+            >
+              REASEARCH
+            </Link>
+            <Link
+              href="#"
+              className="border-b-4 pb-6  pt-8 mb-0.5  border-darkblue hover:border-white"
+            >
+              INNOVATION
+            </Link>
+            <Link
+              href="#"
+              className="border-b-4 pb-6  pt-8 mb-0.5  border-darkblue hover:border-white"
+            >
+              COMMUNITY
+            </Link>
+            <Link
+              href="#"
+              className="border-b-4 pb-6  pt-8 mb-0.5  border-darkblue hover:border-white"
+            >
+              ABOUT TUM
+            </Link>
+          </div>
+          <div className="flex gap-2 ">
+            <Link href="#" className=" opacity-50 hover:opacity-100">
+              DE
+            </Link>
+            <p className="border-r-2 border-white"></p>
+            <p>EN</p>
+            <Image
+              width="24"
+              height="24"
+              src="/images/search.svg"
+              alt="search"
+            ></Image>
+          </div>
         </div>
       </div>
     </div>
